@@ -1,0 +1,26 @@
+.btn {
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 1rem 2rem;
+    transition: .4s ease;
+    transform: translateY(0);
+    border-radius: 25px;
+    box-shadow: 0px 2px 10px 0px rgba(0,51,96,0.15);
+    font-size: 1.8rem;
+    font-family: "Source Sans",sans-serif;
+    font-weight: 600;
+    color: var(--primary-btn-color);
+    background-color: var(--primary-btn-bg-color);
+    transition: .2s ease-in-out;
+
+    &:hover {
+        color: var(--primary-btn-bg-color);
+        background-color: var(--primary-btn-color);
+    }
+}
