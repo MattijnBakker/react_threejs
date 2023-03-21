@@ -1,11 +1,11 @@
 import '../scss/components/_header.scss';
-import Canvas from "./three";
-import WebvalueLogo from "../images/webvalue__bals.png";
+import Scene from "./three";
+
 
 export default function Header() {
     return (
         <div className="header">
-            <Canvas/>
+            <Scene/>
             <div className="container">
                 <div className="header__content">
                     Hallo, Ik ben een <br/>

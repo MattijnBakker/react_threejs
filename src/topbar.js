@@ -10,7 +10,7 @@ export default function Topbar() {
             </div>
 
             <div className="topbar__right">
-                <a href='/' className='topbar__link'>
+                <a href='/over' className='topbar__link'>
                     Over
                 </a>
                 <a href='/' className='topbar__link'>
